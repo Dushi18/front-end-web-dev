@@ -1,0 +1,22 @@
+{
+  "name": "npm_basic",
+  "version": "1.0.0",
+  "description": "Im a beginner with npm ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  
+  "keywords": [
+    "Learner"
+  ],
+  "author": "Dushyant",
+  "license": "ISC",
+  "devDependencies": {
+    "browsify": "^0.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  }
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning with Technoloy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url(bgm.jpg);
+            background-size: contain;
+            /* background-repeat: no-repeat; */
+            background-color: black;
+        }
+
+        .navbar li {
+            text-decoration: none;
+            list-style: none;
+            display: inline;
+            padding: 40px;
+            color: white;
+            font-weight: 600;
+
+            letter-spacing: 2px;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 25px;
+        }
+
+        header {
+            text-align: right;
+            margin-top: 400px;
+        }
+
+        .boxkit {
+            width: 100%;
+            height: 1000px;
+            display: flex;
+            flex-flow: column;
+            margin-top: 170px;
+        }
+
+        .boxes {
+            border: 2px solid black;
+            width: 600px;
+            /* padding: 30px; */
+            margin: 30px;
+        
+        }
+
+        .image1 {
+            width: 362px;
+            height: 231px;
+        }
+
+        h2{
+            background-color: black;
+            color: white;
+            margin: 0px;
+            height: 50px;
+        }
+        #box-1{
+          width: 800px;
+         /* margin-left: 100px; */
+          
+        }    
+        #box-2{
+            position: relative;
+            left: 700px;
+        }
+        #box-3{
+            width: 700px;
+        }
+        
+        .iot{
+            display: flex;
+            width: 700px;
+            
+        }
+        .robots{
+            display: flex;
+        }
+        .ai{
+            display: flex;
+        }
+        div>p{
+            padding-left: 20px;
+        }
+        p a{
+            color: red;
+        }
+        li a{
+            text-decoration: none;
+            color: white;
+        }
+        li a:hover{
+            color: blue;
+            font-weight: 800;
+            
+        }
+        .logo{
+            background-image: url(https://image.shutterstock.com/image-vector/technology-initial-letter-s-logo-260nw-759079216.jpg);
+            background-size: 246px;
+            background-position: -43px -38px;
+            background-repeat: no-repeat;
+            width: 150px;
+
+            height: 150px;
+            /* border: 2px solid black; */
+            border-radius: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo">
+
+    </div>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li id="item-1" class="items">
+                   <a href="#"> About Us</a>
+                </li>
+                <li id="item-2" class="items">
+                   <a href="#"> Help Desk</a>
+                </li>
+                <li id="item-3" class="items">
+                   <a href="#"> Gallery</a>
+                </li>
+                <li id="item-4" class="items">
+                   <a href="#"> FAQs</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="boxkit">
+        <div id="box-1" class="boxes">
+            <h2>IoT- Internet Of Things
+            </h2>
+            <div class="iot">
+                <div class="iotimage">
+                    <img src="https://www.cloudsavvyit.com/p/uploads/2021/05/241daf9c.png?width=1198&trim=1,1&bg-color=000&pad=1,1"
+                        alt="error" class="image1">
+                </div>
+                <div class="iotpara">
+                    <p>IoT devices are the nonstandard computing devices that connect wirelessly to a network and have
+                        the ability to transmit data, such as the many devices on the internet of things (IoT).
+
+                        IoT involves extending internet connectivity beyond standard devices, such as desktops, laptops,
+                        smartphones and tablets, to any range of traditionally "dumb" or non-internet-enabled physical
+                        devices and everyday objects. Embedded with technology, these devices can communicate and
+                        interact over the internet. They can also <a
+                            href="https://internetofthingsagenda.techtarget.com/definition/IoT-device">Read more...</a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <div id="box-2" class="boxes">
+            <h2>Robotics Population.</h2>
+            <div class="robots">
+                <img src="https://m.gulf-times.com/Content/Upload/slider/120185212015299808669.jpg" alt="error" class="image1">
+                <p class="robotspara">The recently published World Robotics 2020 Industrial Robots report shows a record of 2.7 million industrial robots operating in factories around the world – an increase of 12%. Sales of new robots remain on a high level with 373,000 units shipped globally in 2019. This is 12% less compared to 2018, but still the 3rd highest sales volume ever recorded. <a href="https://metrology.news/world-robot-population-expands-to-record-high/">Read more...</a></p>
+            </div>
+        </div>
+        <div id="box-3" class="boxes">
+            <h2>Artificial Intelligence</h2>
+            <div class="ai">
+                <img src="https://analyticsinsight.b-cdn.net/wp-content/uploads/2021/08/How-Companies-are-Using-Artificial-Intelligence.jpg" alt="error" class="image1">
+                <p class="aipara">
+                    Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by humans or animals. Leading AI textbooks define the field as the study of "intelligent agents": any system that perceives its environment and takes actions that maximize its chance of achieving its goals.[a] Some popular accounts use the term "artificial intelligence" to describe machines <a href="https://en.wikipedia.org/wiki/Artificial_intelligence">Read more...</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

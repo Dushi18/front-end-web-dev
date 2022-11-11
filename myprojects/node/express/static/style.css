@@ -1,0 +1,35 @@
+*{
+    color: rgb(8 0 0);
+   
+}
+body{
+     background-image: url(https://static.vecteezy.com/system/resources/previews/000/625/844/original/geometric-abstract-light-blue-background-for-website-wallpapers-bussines-templates-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    /* background-color: #a3baff; */
+}
+form{
+    margin:10px auto;
+    width: 300px;
+    padding: 10px;
+
+}
+h1{
+    width: 410px;
+    margin: 10px auto;
+    padding: 10px 10px;
+    font-size: 35px;
+}
+h3{
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px 10px;
+    font-size: 25px;
+}
+#submit{
+    color: black;
+    padding: 3px 10px;
+    margin: 10px 0px;
+    font-size: 14px;
+    background-color: #adeec4;
+}

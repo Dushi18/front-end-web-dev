@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <h3>Form for searching partner.</h3>
+    <hr>
+    <h5>Fill up the form for your details.</h5>
+    <form action="backend.php"></form>
+    <div>
+         <label for="name"></label>
+         Name: <input type="text" name="myName" id="name">
+     </div>
+     <label for="age"></label>
+         Age: <input type="number" name="myAge" id="age"><br>
+     <label for="studies">Education:</label>
+     <select name="myEduc" id="studies">
+     <option value="intermediate">intermediate</option>
+     <option value="graduated">graduated</option>
+     <option value="post graduated">post graduated</option>
+     <option value="schooling">schooling</option>
+     <option value="others">others</option>
+     </select>
+     <div>
+         Ever You Were in relationship: Yes <input type="radio" name="myInt"> No <input type="radio" name="myInt">
+     </div><br>
+     <div>
+     <label for="interest">Which type of relationshipyou need: 
+
+     </label>
+        <select name="myInt" id="interest">
+        <option value="permanent">permanent</option>
+        <option value="timepass">timepass</option>
+        <option value="couples" selected>couples for just benefits</option>
+        <option value="fpampering">pampering one</option>
+        <option value="lifelong">lifelong partners</option>
+        </select>
+    </div>
+</body>
+</html>
